@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.course</groupId>
+    <artifactId>parent-project</artifactId>
+    <version>1</version>
+  </parent>
+  <groupId>com.course.coursecreation</groupId>
+  <artifactId>spring_boot_microservice_course_creation</artifactId>
+  <version>1</version>
+  <name>spring_boot_microservice_course_creation</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <java.version>11</java.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>course.common</groupId>
+      <artifactId>security</artifactId>
+      <version>1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+
+
+</project>
